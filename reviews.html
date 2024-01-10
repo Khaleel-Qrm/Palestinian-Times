@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Palestinian Times</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="test.js">
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        #reviews {
+            direction: ltr;
+            width: 110%;
+
+
+
+        }
+
+        #reviews * {
+
+            border: 5px rgb(193, 160, 80) solid;
+            color: black;
+            background-color: white;
+
+
+
+        }
+
+        #reviews tr td p {
+            border: none;
+            font-size: 16pt;
+            text-align: center;
+
+
+        }
+
+        #reviews tr td {
+            text-align: center;
+
+
+        }
+
+
+        table tr td img {
+            width: 100px;
+            height: 100px;
+
+        }
+
+        #comment {
+            color: white;
+            text-align: center;
+            font-size: 18pt;
+        }
+
+        #rate {
+            text-align: center;
+            color: white;
+            font-size: 18pt;
+        }
+    </style>
+</head>
+
+<body style="background-image: url(merch/back3.jpg); background-size: 100%;">
+
+    <nav>
+        <div class="row ">
+
+            <div class="col">
+                <br>
+                <h1 style="font-family: 'Times New Roman', Times, serif;">Palestinian Times</h1>
+            </div>
+
+        </div>
+        <div class="row justify-content-start">
+
+            <div class="col-2 ">
+
+                <a href="homepage.html"><img src="merch/logoP.png " style="height: 90%; width: 90%;" class="img-fluid"></a>
+            </div>
+
+
+
+            <div class="col-10">
+                <a href="how to help.html"> how to help </a>
+                <a href="store.html"> store </a>
+                <a href="reviews.html"> reviews</a>
+                <a href="financial support.html">donation</a>
+                <a href="sitemap.html">site map</a>
+                <a href="contact us.html"> contact us </a>
+                <a href="about us.html">about us</a>
+
+
+            </div>
+
+
+
+        </div>
+    </nav>
+    <hr>
+    <script>
+        import{x} from "./test.js";
+        document.write("<h1>"+x+"</h1>");
+    </script>
+    <h1>المراجعات</h1>
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+
+            <table id="reviews">
+
+                <tr style="text-align: center;">
+                    <td><img src="merch/icon3.png" alt="">
+                        <p> فياض الكناري </p>
+                    </td>
+                    <td>
+                        <p>مقاطع منتجات الكفار من صغري
+                            اخوكم فياض من الجزائر </p>
+                    </td>
+                    <td>
+                        <p>7/10</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><img src="merch/icon female.png" alt="">
+                        <p>وردة البستان</p>
+                    </td>
+                    <td>
+                        <p>ب she in بلاقيها ب 12</p>
+                    </td>
+                    <td>
+                        <p>1/10</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><img src="merch/icon.png" alt="">
+                        <p>مدين حكم قاضي </p>
+                    </td>
+                    <td>
+                        <p>في اقساط ؟
+                        </p>
+                    </td>
+                    <td>
+                        <p>9/10</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="merch/icon4.png" alt="">
+                        <p>كاظم العراقي </p>
+                    </td>
+                    <td>
+                        <p>
+                            توصلون ليجيبوتي
+
+                            هههههههه
+                            الي من العراق يطج لايك
+                        </p>
+                    </td>
+                    <td>
+                        <p>4/10</p>
+                    </td>
+                </tr>
+
+
+
+            </table>
+        </div>
+        <div class="row">
+
+
+            <div id="comment">
+                <form action="" method="get">
+                    <label>enter your review here :
+                        <br>
+                        <textarea name="comment" cols="80" rows="10"> </textarea>
+
+                    </label>
+                    <br>
+                </form>
+            </div>
+            <div id="rate">
+                <form action="" method="get">
+                    <label>rate here :
+                        <br>
+
+                        <input type="number" name="rate">
+                    </label>
+                </form>
+
+            </div>
+            <div style="text-align: center;">
+                <br>
+                <input type="submit">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

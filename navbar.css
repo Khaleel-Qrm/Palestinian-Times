@@ -1,0 +1,98 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Changa:wght@200&family=Vazirmatn:wght@300&display=swap');
+ 
+
+a {
+   text-decoration:none;
+    font-size: 20pt;
+    color:  rgb(193, 160, 80);
+    font-family: 'Amiri', serif;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Vazirmatn', sans-serif;    transition: color 0.3s ease;
+    
+
+
+}
+nav a{
+   font-size: 18pt;
+padding: 2%;
+
+}
+
+
+a:hover {
+    
+    text-decoration: none;
+    color:white;
+    font-family: 'Amiri', serif;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Vazirmatn', sans-serif;}
+nav{
+    width: 100%;
+   
+   font-family: 'Amiri', serif;
+   font-family: 'Changa', sans-serif;
+   font-family: 'Vazirmatn', sans-serif;}
+
+th{
+    text-align: center;
+    border: solid;
+    border: none;
+    font-family: 'Amiri', serif;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Vazirmatn', sans-serif;    
+}
+
+     body {
+        background-color: black;
+        /*background-image: url(merch/map.png);-->*/
+        background-size: 18%;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-attachment: fixed;
+        background-blend-mode: lighten;
+    }
+    p{
+        color: white;
+        text-indent: 2em;
+        direction: rtl;
+        width: 60%;
+        font-family: 'Amiri', serif;
+        font-family: 'Changa', sans-serif;
+        font-family: 'Vazirmatn', sans-serif;        
+    
+        
+            
+    }
+    li{
+        color: white;
+        text-indent: 2em;
+        direction: rtl;
+       
+       font-family: 'Amiri', serif;
+       font-family: 'Changa', sans-serif;
+       font-family: 'Vazirmatn', sans-serif;       
+             
+    }
+    h1{
+        color: white;
+        text-align: center;
+        font-family: 'Amiri', serif;
+        font-family: 'Changa', sans-serif;
+        font-family: 'Vazirmatn', sans-serif; }
+    h2 {
+        
+        direction: rtl;
+        color: rgb(193, 160, 80);
+        font-family: 'Amiri', serif;
+        font-family: 'Changa', sans-serif;
+        font-family: 'Vazirmatn', sans-serif;}
+    h3 {
+       
+       direction: rtl;
+        color: white;
+        font-family: 'Amiri', serif;
+        font-family: 'Changa', sans-serif;
+        font-family: 'Vazirmatn', sans-serif;
+      }
